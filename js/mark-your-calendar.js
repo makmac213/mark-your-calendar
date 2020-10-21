@@ -27,7 +27,7 @@
             nextHtml: nextHtml,
             selectedDates: [],
             startDate: new Date(),
-            weekdays: ['sun', 'mon', 'tue', 'wed', 'thurs', 'fri', 'sat',],
+            weekdays: ['sun', 'mon', 'tue', 'wed', 'thurs', 'fri', 'sat'],
         };
         var settings = $.extend({}, defaults, opts);
         var html = ``;
