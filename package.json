@@ -1,0 +1,16 @@
+{
+  "name": "mark-your-calendar",
+  "version": "0.0.1",
+  "description": "A jQuery plugin to used to pick available time in a day.",
+  "main": "js/mark-your-calendar.js",
+  "style": "css/mark-your-calendar.css",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makmac213/mark-your-calendar.git"
+  },
+  "author": {
+    "name": "Mark Allan B. Meriales",
+    "email": "mark.meriales@gmail.com"
+  }
+}
