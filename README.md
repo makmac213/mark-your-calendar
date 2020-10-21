@@ -2,6 +2,8 @@
 # mark-your-calendar
 A jQuery plugin to used to pick available time in a day.
 
+![Single selection demo](https://media.giphy.com/media/IxFbZYK5lVRCWurF5K/giphy.gif)
+
 ## Usage
 $('#picker').markyourcalendar(options);
 
