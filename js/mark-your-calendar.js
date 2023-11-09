@@ -120,6 +120,41 @@
             render();
         }
 
+        this.setStartDate = function(date) {
+            settings.startDate = date;
+            render();
+        }
+
+        this.setIsMultiple = function(isMultiple) {
+            settings.isMultiple = isMultiple;
+            render();
+        }
+
+        this.setPrevHtml = function(prevHtml) {
+            settings.prevHtml = prevHtml;
+            render();
+        }
+
+        this.setNextHtml = function(nextHtml) {
+            settings.nextHtml = nextHtml;
+            render();
+        }
+
+        this.setSelectedDates = function(selectedDates) {
+            settings.selectedDates = selectedDates;
+            render();
+        }
+
+        this.setMonths = function(months) {
+            settings.months = months;
+            render();
+        }
+
+        this.setWeekdays = function(weekdays) {
+            settings.weekdays = weekdays;
+            render();
+        }
+
         // clear
         this.clearAvailability = function() {
             settings.availability = [[], [], [], [], [], [], []];
@@ -190,5 +225,7 @@
         };
 
         render();
+
+        return instance;
     };
 })(jQuery);
