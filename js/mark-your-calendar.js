@@ -140,7 +140,7 @@
             render();
         }
 
-        this.setNextHtml = function(selectedDates) {
+        this.setSelectedDates = function(selectedDates) {
             settings.selectedDates = selectedDates;
             render();
         }
