@@ -40,4 +40,12 @@ Triggers when you make a selection. Returns the selected date(s)
 
 ## Methods
 - **setAvailability**
+- **setStartDate**
+- **setIsMultiple**
+- **setPrevHtml**
+- **setNextHtml**
+- **setSelectedDates**
+- **setMonths**
+- **setWeekdays**
+- **clearAvailability**
 Sets the available options for each day of the week. See demo.
